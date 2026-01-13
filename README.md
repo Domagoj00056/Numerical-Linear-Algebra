@@ -8,6 +8,10 @@ which is Airy's equation and arises in various applied problems including in opt
 The general solution is given by
 
 $$
+y(0) = 1 \qquad \& \qquad y(L) = 0
+$$
+
+$$
 y(x) = C_1 Ai(x) + C_2 Bi(x)
 $$
 
@@ -15,9 +19,7 @@ This therefore gives us a nice example to test finite difference approximations,
 
 We will work with boundary conditions 
 
-$$
-y(0) = 1 \qquad \& \qquad y(L) = 0
-$$
+
 
 where $L$ is the length of the interval, to be varied during the project.
 
