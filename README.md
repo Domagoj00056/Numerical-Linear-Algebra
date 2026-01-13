@@ -16,7 +16,7 @@ This therefore gives us a nice example to test finite difference approximations,
 We will work with boundary conditions 
 
 $$
-y(0) = 1 \qquad \text{\&} \qquad y(L) = 0
+y(0) = 1 \qquad \& \qquad y(L) = 0
 $$
 
 where $L$ is the length of the interval, to be varied during the project.
