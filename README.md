@@ -16,7 +16,7 @@ y(x) = C_1 Ai(x) + C_2 Bi(x)
 $$
 
 $$
-y(0) = 1 
+y(0) = 1 & y(L) = 0
 $$
 
 This therefore gives us a nice example to test finite difference approximations, the iterative solution of the set of linear equations which comprise the boundary value problem with a comparison to the `scipy` Airy functions. 
