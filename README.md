@@ -8,15 +8,11 @@ which is Airy's equation and arises in various applied problems including in opt
 The general solution is given by
 
 $$
-y(0) = 1 \qquad \& \qquad y(L) = 0
-$$
-
-$$
 y(x) = C_1 Ai(x) + C_2 Bi(x)
 $$
 
 $$
-y(0) = 1 \qquad \text{dd} \qquad y(L) = 0
+y(0) = 1 \qquad \text{&} \qquad y(L) = 0
 $$
 
 This therefore gives us a nice example to test finite difference approximations, the iterative solution of the set of linear equations which comprise the boundary value problem with a comparison to the `scipy` Airy functions. 
