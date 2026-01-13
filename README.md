@@ -4,8 +4,7 @@ In this project we will study the performance of finite difference methods to so
 $$
 \frac{d^2 y}{dx^2} -xy = 0
 $$
-which is Airy's equation and arises in various applied problems including in optics and quantum mechanics. The equation has solutions which are defined in terms of the special functions $Ai(x)$ and $Bi(x)$ the [Airy functions](https://en.wikipedia.org/wiki/Airy_function) of first and second kind. We won't write these out, but as you can see from the link they are defined in terms of improper integrals. They can be obtained in Python using the `scipy.special` module, see [here](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.airy.html).
-
+which is Airy's equation and arises in various applied problems including in optics and quantum mechanics. The equation has solutions which are defined in terms of the special functions $Ai(x)$ and $Bi(x)$ the [Airy functions](https://en.wikipedia.org/wiki/Airy_function) of first and second kind. 
 The general solution is given by
 
 $$
@@ -21,6 +20,8 @@ y(0) = 1 \qquad \mathrm{\&} \qquad y(L) = 0
 $$
 
 where $L$ is the length of the interval, to be varied during the project.
+
+###########################################################################3
 
 We saw in lectures that a boundary value problem of this type can be solved using finite difference differentiation matrices to discretise the operator on the left hand side of the equation. Recall from lectures that with second order finite differences the matrix for the first derivative is
 
