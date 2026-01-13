@@ -16,6 +16,11 @@ This therefore gives us a nice example to test finite difference approximations,
 We will work with boundary conditions 
 
 $$
+y(x) = C_1 Ai(x) + C_2 Bi(x)
+$$
+
+
+$$
 y(0) = 1 \qquad \mathrm{\&} \qquad y(L) = 0
 $$
 
