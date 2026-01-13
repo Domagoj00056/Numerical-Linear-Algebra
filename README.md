@@ -21,7 +21,7 @@ $$
 
 where $L$ is the length of the interval, to be varied during the project.
 
-###########################################################################3
+
 
 We saw in lectures that a boundary value problem of this type can be solved using finite difference differentiation matrices to discretise the operator on the left hand side of the equation. Recall from lectures that with second order finite differences the matrix for the first derivative is
 
