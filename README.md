@@ -28,7 +28,7 @@ where $L$ is the length of the interval, to be varied during the project.
 
 
 
-<img width="1268" height="1172" alt="p1" src="https://github.com/user-attachments/assets/685d0dc6-d8ef-4b4e-bbd4-364443dbb925" />
+<img src="https://github.com/user-attachments/assets/685d0dc6-d8ef-4b4e-bbd4-364443dbb925" width="50%" />
 
 
 
