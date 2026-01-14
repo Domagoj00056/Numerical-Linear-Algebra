@@ -64,15 +64,11 @@ $$ D_2 = \frac{1}{h^2}\left(
   <img width="600" alt="p1" src="https://github.com/user-attachments/assets/685d0dc6-d8ef-4b4e-bbd4-364443dbb925" />
 </p>
 
-<table style="width:100%">
-  <tr>
-    <td align="center"><b>Plot A</b><br><img src="URL_1" width="100%"/></td>
-    <td align="center"><b>Plot B</b><br><img src="URL_2" width="100%"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Plot C</b><br><img src="URL_3" width="100%"/></td>
-    <td align="center"><b>Plot D</b><br><img src="URL_4" width="100%"/></td>
-  </tr>
-</table>
+
+<p align="center">
+  <img width="800" alt="airy_error" src="https://github.com/user-attachments/assets/62ec3ef2-1622-4a60-a451-b88f8e514d18" />
+  <br>
+  <em>Figure 2: Absolute error between the numerical and exact Airy function solution.</em>
+</p>
 
 
