@@ -27,15 +27,6 @@ where $L$ is the length of the interval, to be varied during the project.
 #########################################################################
 
 
-
-
-
-
-
-
-
-
-
 We saw in lectures that a boundary value problem of this type can be solved using finite difference differentiation matrices to discretise the operator on the left hand side of the equation. Recall from lectures that with second order finite differences the matrix for the first derivative is
 
 $$D=\frac{1}{2h}\left(
@@ -61,3 +52,13 @@ $$ D_2 = \frac{1}{h^2}\left(
 0&.&.&.&1&-2\\
 \end{array}}
 \right).$$
+
+## Question 1
+
+* Programe a Python function named `fExact(x)` which has one argument which is a numpy array of $x$ values in $[0,L]$ and returns the exact solution. Note that the constants $C_1$ and $C_2$ require resolving using the boundary conditions and the `scipy.special` function will be needed.  
+
+* Using the second order differentiation matrix provided, write a Python function named `makeA_second(x)` which has the same argument of $x$ values and returns the matrix `A` corresponding to the discrete version of the operator $\frac{d^2}{dx^2} - x$ (i.e. the left hand side of the ODE above.
+
+* Setting $N=50$ total points (including boundaries) and $L=5$ use your `makeA_second` function to construct the operator and then taking the Gauss-Seidel iteration code **from the notes** solve it. Note that this requires care to ensure boundary conditions are respected. The final answer should be stored in an array `y_Q1` and should be the full 50 points and hence cover $[0,L].$ You should plot $y(x)$ for your numerical approximation and exact solution on the same axes, and on separate axes the error (the difference).
+
+
