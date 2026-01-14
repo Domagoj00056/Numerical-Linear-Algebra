@@ -2,8 +2,9 @@
 In this project we will study the performance of finite difference methods to solve the boundary value problem
 
 $$
-\frac{d^2 y}{dx^2} -xy = 0
+\frac{d^2 y}{dx^2} - xy = 0
 $$
+
 which is Airy's equation and arises in various applied problems including in optics and quantum mechanics. The equation has solutions which are defined in terms of the special functions $Ai(x)$ and $Bi(x)$ the [Airy functions](https://en.wikipedia.org/wiki/Airy_function) of first and second kind. 
 The general solution is given by
 
