@@ -60,13 +60,11 @@ $$ D_2 = \frac{1}{h^2}\left(
 
 * Setting $N=50$ total points (including boundaries) and $L=5$ use your `makeA_second` function to construct the operator and then taking the Gauss-Seidel iteration code **from the notes** solve it. Note that this requires care to ensure boundary conditions are respected. The final answer should be stored in an array `y_Q1` and should be the full 50 points and hence cover $[0,L].$ You should plot $y(x)$ for your numerical approximation and exact solution on the same axes, and on separate axes the error (the difference).
 
-<p align="center">
-  <img width="600" alt="p1" src="https://github.com/user-attachments/assets/685d0dc6-d8ef-4b4e-bbd4-364443dbb925" />
-</p>
+
 
 
 <p align="center">
-  <img width="800" alt="airy_error" src="https://github.com/user-attachments/assets/62ec3ef2-1622-4a60-a451-b88f8e514d18" />
+  <img width="1100" alt="airy_error" src="https://github.com/user-attachments/assets/62ec3ef2-1622-4a60-a451-b88f8e514d18" />
   <br>
   <em>Figure 2: Absolute error between the numerical and exact Airy function solution.</em>
 </p>
