@@ -64,4 +64,15 @@ $$ D_2 = \frac{1}{h^2}\left(
   <img width="600" alt="p1" src="https://github.com/user-attachments/assets/685d0dc6-d8ef-4b4e-bbd4-364443dbb925" />
 </p>
 
+<table style="width:100%">
+  <tr>
+    <td align="center"><b>Plot A</b><br><img src="URL_1" width="100%"/></td>
+    <td align="center"><b>Plot B</b><br><img src="URL_2" width="100%"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Plot C</b><br><img src="URL_3" width="100%"/></td>
+    <td align="center"><b>Plot D</b><br><img src="URL_4" width="100%"/></td>
+  </tr>
+</table>
+
 
