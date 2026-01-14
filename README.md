@@ -66,7 +66,7 @@ $$ D_2 = \frac{1}{h^2}\left(
 <p align="center">
   <img width="1100" alt="airy_error" src="https://github.com/user-attachments/assets/62ec3ef2-1622-4a60-a451-b88f8e514d18" />
   <br>
-  <em>Figure 2: Absolute error between the numerical and exact Airy function solution.</em>
+  <em>Figure 1: Absolute error between the numerical and exact Airy function solution.</em>
 </p>
 
 
